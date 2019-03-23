@@ -1,4 +1,4 @@
-# Karl Charles Portfolio
+# Karl Charles Landing Page
 
 I created a portfolio website for Karl showcasing some of his work and links to contact him. 
 
