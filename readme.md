@@ -1,6 +1,6 @@
 # Karl Charles Landing Page
 
-I created a portfolio website for Karl showcasing some of his work and links to contact him. 
+I created a landing page website for Karl, a fashion model, to display some of his past work and a PHP form to contact him and his social links. 
 
 ## Built With
 
