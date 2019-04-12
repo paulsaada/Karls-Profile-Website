@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
+
+/*----- GLOBAL STYLES -----*/
+* {
+    font-family: Poppins;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+    width: 95%;
+    max-width: 1800px;
+    margin: 15px auto;
+    background-color: rgb(252, 247, 235);
+}
+
+a {
+	color: rgb(0, 0, 0);
+}
+
+/*----- HEADER -----*/
+header {
+	display: flex;
+}
+
+header h1 {
+	margin-top: 0;
+	flex: 40%;
+} 
+
+header nav {
+	flex: 60%;
+}
+
+header h1 a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/*----- NAVIGATION -----*/
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+nav li {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 80px;
+    justify-content: right;
+    letter-spacing: 0.03em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/*----- INTRODUCTION -----*/
+
+.intro {
+	display: flex;
+}
+
+.intro-image {
+	flex: 50%;
+	text-align: right;
+}
+
+.intro-image img {
+	max-width: 560px;
+	max-height: 700px;
+	width: 100%;
+	height: auto;
+	padding-top: 35px;
+	padding-right: 35px;
+}
+
+.intro-desc {
+	flex: 50%;
+	padding-top: 170px;
+	padding-right: 50px;
+}
+
+.intro-desc h2 {
+	font-size: 4.4em;
+	margin-bottom: 0;
+}
+
+.intro-desc p {
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+
+/*----- FOOTER -----*/
+
+footer {
+	display: flex;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+   	background: rgb(0, 0, 0);
+   	justify-content: flex-end;
+}
+
+.footer-wrapper {
+	display: flex;
+}
+
+.footer-text {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding-right: 15px;
+}
+
+.social-icons {
+	border-left: 0.5px solid rgb(252, 247, 235);
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.social-icons img{
+	width: 25px;
+	height: auto;
+	padding-top: 5px;
+	padding-right: 1px;
+}
+
+/*----- MEDIA QUERIES -----*/
+@media (max-width: 1030px) {
+	header h1 a {
+    	font-size: 1.2em;
+	}
+}
+
+@media (max-width: 930px) {
+	.intro {
+		flex-direction: column;
+	}
+
+	.intro-image {
+		justify-content: center;
+	}
+
+	.intro-desc {
+		padding: 5px 100px 50px 100px;
+	}
+
+	.intro-desc p {
+		font-size: 1.3em;
+	}
+}
+
+@media (max-width: 650px) {
+	header h1 {
+		flex: 60%;
+	} 
+
+	header nav {
+		flex: 40%;
+	}
+
+	nav ul {
+    	flex-direction: column;
+    	justify-content: flex-end;
+	}
+
+	nav li {
+    	font-size: 1.3em;
+    	text-align: right;
+    	margin-left: 10px;
+    	padding-bottom: 4px;
+	}
+
+	.intro-desc {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+@media (max-width: 430px) {
+	header h1 {
+		font-size: 1.5em;
+	} 
+}
+
+
