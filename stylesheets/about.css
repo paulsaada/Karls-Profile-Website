@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
 
 /*----- GLOBAL STYLES -----*/
 * {
     font-family: Poppins;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
     width: 95%;
     max-width: 1800px;
     margin: 15px auto;
-    background-color: rgb(252, 247, 235);
+    background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -45,7 +47,7 @@ nav ul {
 
 nav li {
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 500;
     margin-left: 80px;
     justify-content: right;
     letter-spacing: 0.03em;
@@ -61,23 +63,23 @@ nav a {
 }
 
 .about-image {
-	display: flex;
 	flex: 40%;
 	padding-top: 30px;
 	padding-left: 20px;
-	justify-content: flex-end;
+	text-align: right;
 }
 .about-image img {
 	max-width: 500px;
 	width: 100%;
 	height: auto;
 	padding-top: 35px;
-	padding-right: 35px;
+	padding-right: 20px;
 }
 
 .about-desc {
 	flex: 60%;
 	padding-right: 70px;
+	padding-left: 20px;
 }
 
 .about-desc h1 {
@@ -88,6 +90,7 @@ nav a {
 
 .about-desc h3 {
 	font-size: 1.8em;
+	font-weight: 700;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -108,7 +111,7 @@ nav a {
 }
 
 .contact-links button:hover {
-    color: rgb(252, 247, 235);
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
