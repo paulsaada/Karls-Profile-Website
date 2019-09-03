@@ -57,6 +57,24 @@ nav a {
     text-decoration: none;
 }
 
+nav li::hover {
+	border-bottom: solid 3px rgb(0, 0, 0);
+	transition: width 0.3s;
+}
+
+nav li::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: rgb(0, 0, 0);
+	transition: width 0.3s;
+}
+
+nav li:hover::after {
+	width: 100%;
+}
+
 /*----- CONTACT SECTION -----*/
 .contact {
 	text-align: center;
