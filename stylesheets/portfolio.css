@@ -127,3 +127,38 @@ footer {
 	padding-top: 5px;
 	padding-right: 1px;
 }
+
+/*----- MEDIA QUERIES -----*/
+@media (max-width: 1030px) {
+  header h1 a {
+      font-size: 1.2em;
+  }
+}
+
+@media (max-width: 650px) {
+  header h1 {
+      flex: 60%;
+  } 
+
+  header nav {
+      flex: 40%;
+  }
+
+  nav ul {
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+
+  nav li {
+      font-size: 1.3em;
+      text-align: right;
+      margin-left: 10px;
+      padding-bottom: 4px;
+  }
+}
+
+@media (max-width: 430px) {
+  header h1 {
+      font-size: 1.5em;
+  }
+}

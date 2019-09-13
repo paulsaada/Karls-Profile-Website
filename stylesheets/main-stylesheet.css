@@ -90,6 +90,7 @@ nav li:hover::after {
 
 .intro {
 	display: flex;
+	padding-bottom: 50px;
 }
 
 .intro-image {
